@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: black;
+    color:white;
+  }
+  @font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+}
+.clockdate-wrapper {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(50deg, #0004ff, #0077ff,rgb(0, 81, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     padding: 10px;
+    width:100%;
+    text-align:center;
+    border-radius:16px;
+    margin:10px;
+  
+}
+#clock{
+    font-size:60px;
+    text-shadow:0px 0px 1px rgb(124, 40, 40);
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+}
+#clock span {
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow:0px 0px 1px #333;
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:22px;
+    font-family:cursive;
+    color:rgb(0, 0, 0);
+}
+#demo{ 
+    text-shadow:0px 0px 1px rgb(124, 40, 40);
+    color:rgb(0, 0, 0);
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(50deg, #0004ff, #0077ff,rgb(0, 81, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     padding: 10px;
+    width:100%;
+    text-align:center;
+    border-radius:44px;
+    margin:10px;
+}
