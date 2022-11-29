@@ -34,7 +34,7 @@ function animateTitle() {
     var sec = today.getSeconds();
     var Minisec = today.getMilliseconds()
 
-    ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
+    ap = (hr < 12) ? "<div>AM</div>" : "<div>PM</div>";
     hr = (hr == 0) ? 12 : hr;
     hr = (hr > 12) ? hr - 12 : hr;
     //Add a zero in front of numbers<10
