@@ -63,7 +63,7 @@ function checkTime(i) {
 }
 startTime();
 //countdown 
-var deadline = new Date("Nov 30, 2022 11:45:00").getTime();
+var deadline = new Date("may 22, 2023 00:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var t = deadline - now;
@@ -76,6 +76,6 @@ document.getElementById("demo").innerHTML = days + "d " 
 + hours + "h " + minutes + "m " + seconds + "s " + Minisecons + "ms";
     if (t < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "yooo";
+        document.getElementById("demo").innerHTML = "HAPPY-BIRTHDAY 🎂";
     }
 }, 00);
